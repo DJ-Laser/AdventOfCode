@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fc05599-24e8-4d29-898b-6233588ff96e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdventOfCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/AOCDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/AOCYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/y2022/Y2022.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/y2022/d1/D1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/y2022/d1/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/y2022/d1/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/y2022/d2/D2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/y2022/d2/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/y2022/d2/input.txt" afterDir="false" />
+    <list default="true" id="4fc05599-24e8-4d29-898b-6233588ff96e" name="Changes" comment="start day 3">
+      <change afterPath="$PROJECT_DIR$/src/y2022/d5/D5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/y2022/d5/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/y2022/d5/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/Y2022.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/y2022/Y2022.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d4/D4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/y2022/d4/D4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,7 +56,7 @@
       <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\AdventOfCode\src\y2022\d2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Challenge2">
+  <component name="RunManager" selected="Application.Challenge1">
     <configuration name="Challenge1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AdventOfCode" />
@@ -102,6 +92,21 @@
       <option name="presentableId" value="Default" />
       <updated>1670173436739</updated>
     </task>
+    <task id="LOCAL-00001" summary="days 1&amp;2">
+      <created>1670274406020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670274406020</updated>
+    </task>
+    <task id="LOCAL-00002" summary="start day 3">
+      <created>1670280428942</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670280428942</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,5 +122,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="days 1&amp;2" />
+    <MESSAGE value="start day 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="start day 3" />
   </component>
 </project>
