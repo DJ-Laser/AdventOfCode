@@ -113,7 +113,7 @@ public class D2 extends AOCDay {
     public void challenge1() {
         String input = readInput(false);
         List<String> instructions =
-                Arrays.stream(input.split("\r\n")).map(s -> s.replaceAll(" ", "")).toList();
+                Arrays.stream(input.split("\r?\n")).map(s -> s.replaceAll(" ", "")).toList();
         int score = 0;
         for (String instruction:instructions) {
             int currentScore = 0;
@@ -130,7 +130,7 @@ public class D2 extends AOCDay {
     public void challenge2() {
         String input = readInput(false);
         List<String> instructions =
-                Arrays.stream(input.split("\r\n")).map(s -> s.replaceAll(" ", "")).toList();
+                Arrays.stream(input.split("\r?\n")).map(s -> s.replaceAll(" ", "")).toList();
         int score = 0;
         for (String instruction:instructions) {
             int currentScore = 0;

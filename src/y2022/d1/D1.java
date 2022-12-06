@@ -10,11 +10,11 @@ public class D1 extends AOCDay {
     @Override
     public void challenge1() {
         String input = readInput(false);
-        String[] groups = input.split("\r\n\r\n");
+        String[] groups = input.split("\r?\n\r?\n");
         int maxValue = 0;
 
         for (String group: groups) {
-            int totalValue = Arrays.stream(group.split("\r\n")).mapToInt(Integer::parseInt).sum();
+            int totalValue = Arrays.stream(group.split("\r?\n")).mapToInt(Integer::parseInt).sum();
             if (totalValue > maxValue){
                 maxValue = totalValue;
             }
@@ -25,12 +25,12 @@ public class D1 extends AOCDay {
     @Override
     public void challenge2() {
         String input = readInput(false);
-        String[] groups = input.split("\r\n\r\n");
+        String[] groups = input.split("\r?\n\r?\n");
 
         ArrayList<Integer> maxValues = new ArrayList<>(Collections.singletonList(0));
 
         for (String group: groups) {
-            Integer totalValue = Arrays.stream(group.split("\r\n")).mapToInt(Integer::parseInt).sum();
+            Integer totalValue = Arrays.stream(group.split("\r?\n")).mapToInt(Integer::parseInt).sum();
 
             for(int i = 0; i < maxValues.size(); i++){
                 if(totalValue > maxValues.get(i)){
