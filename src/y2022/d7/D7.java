@@ -33,7 +33,9 @@ public class D7 extends AOCDay{
                     }
                 }
                 } else {
-                    
+                    for(;; i++){
+
+                    }
                 }
             }
         }
