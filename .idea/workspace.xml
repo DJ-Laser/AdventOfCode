@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fc05599-24e8-4d29-898b-6233588ff96e" name="Changes" comment="start day 3">
-      <change afterPath="$PROJECT_DIR$/src/y2022/d5/D5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/y2022/d5/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/y2022/d5/input.txt" afterDir="false" />
+    <list default="true" id="4fc05599-24e8-4d29-898b-6233588ff96e" name="Changes" comment="start day 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/Y2022.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/y2022/Y2022.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d4/D4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/y2022/d4/D4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d5/D5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/y2022/d5/D5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d7/D7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/y2022/d7/D7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +39,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -56,7 +57,7 @@
       <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\AdventOfCode\src\y2022\d2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Challenge1">
+  <component name="RunManager" selected="Application.Challenge2">
     <configuration name="Challenge1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AdventOfCode" />
@@ -125,5 +126,35 @@
     <MESSAGE value="days 1&amp;2" />
     <MESSAGE value="start day 3" />
     <option name="LAST_COMMIT_MESSAGE" value="start day 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="tree.getName().equals(&quot;/&quot;) | tree.getName().equals(&quot;vjdjl&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/y2022/d7/D7.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="y2022.d7.D7$DirectoryTree" memberName="this$0" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="bestDirectory.getName()" language="JAVA" />
+        <watch expression="tree.getName()" language="JAVA" />
+        <watch expression="bestSize" />
+        <watch expression="currentSize" />
+        <watch expression="returnedDirectory.getName()" language="JAVA" />
+        <watch expression="returnedSize" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AdventOfCode$Challenge2.ic" NAME="Challenge2 Coverage Results" MODIFIED="1670451294515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

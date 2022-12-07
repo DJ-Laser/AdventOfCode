@@ -26,7 +26,7 @@ public class D5 extends AOCDay {
             } else {
                 for (int i = 0; i < line.length(); i++) {
                     if(line.charAt(i) != ' '){
-                        containerStacks.add(new ArrayDeque<Character>());
+                        containerStacks.add(new ArrayDeque<>());
                     }
                 }
 
@@ -35,8 +35,7 @@ public class D5 extends AOCDay {
                 }
             }
         }
-        for (int i = 0; i < containerStacks.size(); i++) {
-            Deque<Character> stack = containerStacks.get(i);
+        for (Deque<Character> stack : containerStacks) {
             System.out.print(stack.peek());
         }
         System.out.println();
@@ -44,7 +43,7 @@ public class D5 extends AOCDay {
 
     private void parseMovement(String line, List<Deque<Character>> containerStacks, boolean chal2) {
         int[] movementParams = line.chars()
-            .filter(i -> Character.isDigit(i))
+            .filter(Character::isDigit)
             .map(i -> Integer.parseInt("" + (char) i))
             .toArray();
         if (movementParams.length  == 4) {
@@ -98,7 +97,7 @@ public class D5 extends AOCDay {
             } else {
                 for (int i = 0; i < line.length(); i++) {
                     if(line.charAt(i) != ' '){
-                        containerStacks.add(new ArrayDeque<Character>());
+                        containerStacks.add(new ArrayDeque<>());
                     }
                 }
 
@@ -107,8 +106,7 @@ public class D5 extends AOCDay {
                 }
             }
         }
-        for (int i = 0; i < containerStacks.size(); i++) {
-            Deque<Character> stack = containerStacks.get(i);
+        for (Deque<Character> stack : containerStacks) {
             System.out.print(stack.peek());
         }
         System.out.println();
