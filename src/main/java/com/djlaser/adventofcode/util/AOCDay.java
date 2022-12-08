@@ -1,4 +1,4 @@
-package util;
+package com.djlaser.adventofcode.util;
 
 import java.io.IOException;
 import java.net.URISyntaxException;

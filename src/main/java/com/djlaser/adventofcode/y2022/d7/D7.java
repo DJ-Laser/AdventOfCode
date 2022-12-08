@@ -1,9 +1,9 @@
-package y2022.d7;
+package com.djlaser.adventofcode.y2022.d7;
 
 import java.util.*;
 
+import com.djlaser.adventofcode.util.AOCDay;
 import org.jetbrains.annotations.Nullable;
-import util.AOCDay;
 
 public class D7 extends AOCDay {
 

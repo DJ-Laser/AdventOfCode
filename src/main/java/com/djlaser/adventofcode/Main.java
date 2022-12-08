@@ -1,5 +1,7 @@
-import util.AOCYear;
-import y2022.Y2022;
+package com.djlaser.adventofcode;
+
+import com.djlaser.adventofcode.util.AOCYear;
+import com.djlaser.adventofcode.y2022.Y2022;
 
 import java.util.AbstractMap;
 import java.util.Map;

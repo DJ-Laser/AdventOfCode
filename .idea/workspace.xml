@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4fc05599-24e8-4d29-898b-6233588ff96e" name="Changes" comment="start day 5">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_20_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d5/D5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/y2022/d5/D5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d7/D7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/y2022/d7/D7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/AOCDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/AOCDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/AOCYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/AOCYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/Y2022.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/Y2022.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d1/D1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d1/D1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d1/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d1/example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d1/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d1/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d2/D2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d2/D2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d2/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d2/example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d2/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d3/D3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d3/D3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d3/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d3/example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d3/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d3/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d4/D4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d4/D4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d4/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d4/example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d4/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d4/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d5/D5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d5/D5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d5/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d5/example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d5/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d5/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d6/D6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d6/D6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d6/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d6/example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d6/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d6/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d7/D7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d7/D7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d7/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d7/example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/y2022/d7/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d7/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +68,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/devin/OneDrive/Documents/AdventOfCode/AdventOfCode/src/y2022/d2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/devin/OneDrive/Documents/AdventOfCode/AdventOfCode/src/y2022/d2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\AdventOfCode\src\y2022\d2" />
@@ -59,7 +95,7 @@
   </component>
   <component name="RunManager" selected="Application.Challenge2">
     <configuration name="Challenge1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="com.djlaser.adventofcode.Main" />
       <module name="AdventOfCode" />
       <option name="PROGRAM_PARAMETERS" value="1" />
       <method v="2">
@@ -67,7 +103,7 @@
       </method>
     </configuration>
     <configuration name="Challenge2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="com.djlaser.adventofcode.Main" />
       <module name="AdventOfCode" />
       <option name="PROGRAM_PARAMETERS" value="2" />
       <method v="2">
@@ -132,7 +168,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <condition expression="tree.getName().equals(&quot;/&quot;) | tree.getName().equals(&quot;vjdjl&quot;)" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/y2022/d7/D7.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/y2022/d7/D7.java</url>
           <line>147</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>

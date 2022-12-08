@@ -1,10 +1,10 @@
-package y2022.d6;
+package com.djlaser.adventofcode.y2022.d6;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import util.AOCDay;
+import com.djlaser.adventofcode.util.AOCDay;
 
 public class D6 extends AOCDay {
 

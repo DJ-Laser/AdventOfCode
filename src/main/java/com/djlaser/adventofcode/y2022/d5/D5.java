@@ -1,6 +1,6 @@
-package y2022.d5;
+package com.djlaser.adventofcode.y2022.d5;
 
-import util.AOCDay;
+import com.djlaser.adventofcode.util.AOCDay;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
