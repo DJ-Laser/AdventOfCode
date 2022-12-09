@@ -9,6 +9,13 @@
 			"installMaven": "true",
 			"installGradle": "false"
 		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"eamodio.gitlens"
+			]
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

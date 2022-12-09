@@ -10,7 +10,7 @@ import java.util.Objects;
 public class Main {
 
     public static AOCDate defaultDate =
-            new AOCDate(2022, 7);
+            new AOCDate(2022, 8);
 
     public static Map<Integer, AOCYear> years = Map.ofEntries(
             makeYear(new Y2022())
