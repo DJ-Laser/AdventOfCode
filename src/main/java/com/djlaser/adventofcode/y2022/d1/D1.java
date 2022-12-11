@@ -9,7 +9,7 @@ public class D1 extends AOCDay {
 
     @Override
     public void challenge1() {
-        String input = readInput(false);
+        String input = readInput();
         String[] groups = input.split("\r?\n\r?\n");
         int maxValue = 0;
 
@@ -24,7 +24,7 @@ public class D1 extends AOCDay {
 
     @Override
     public void challenge2() {
-        String input = readInput(false);
+        String input = readInput();
         String[] groups = input.split("\r?\n\r?\n");
 
         ArrayList<Integer> maxValues = new ArrayList<>(Collections.singletonList(0));

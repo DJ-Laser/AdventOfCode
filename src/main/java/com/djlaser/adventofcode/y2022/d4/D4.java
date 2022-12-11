@@ -9,7 +9,7 @@ public class D4 extends AOCDay {
 
     @Override
     public void challenge1() {
-        String input = readInput(false);
+        String input = readInput();
         String[] pairs = input.split("\r?\n");
         int score = 0;
 
@@ -34,7 +34,7 @@ public class D4 extends AOCDay {
 
     @Override
     public void challenge2() {
-        String input = readInput(false);
+        String input = readInput();
         String[] pairs = input.split("\r?\n");
         int score = 0;
 

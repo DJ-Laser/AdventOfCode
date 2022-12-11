@@ -112,7 +112,7 @@ public class D7 extends AOCDay {
 
     @Override
     public void challenge1() {
-        String input = readInput(false);
+        String input = readInput();
         DirectoryTree fileDrive = parseFileSystem(input);
         int totalSize = pt1fileTotal(fileDrive);
         System.out.println(totalSize);
@@ -158,7 +158,7 @@ public class D7 extends AOCDay {
 
     @Override
     public void challenge2() {
-        String input = readInput(false);
+        String input = readInput();
         DirectoryTree fileDrive = parseFileSystem(input);
         int totalDiskSpace = 70000000;
         int requiredSpace = 30000000;

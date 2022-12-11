@@ -10,7 +10,7 @@ public class D6 extends AOCDay {
 
     @Override
     public void challenge1() {
-        String input = readInput(false);
+        String input = readInput();
         System.out.println(findPacket(input, 4));
     }
 
@@ -36,7 +36,7 @@ public class D6 extends AOCDay {
 
     @Override
     public void challenge2() {
-        String input = readInput(false);
+        String input = readInput();
         System.out.println(findPacket(input, 14));
     }
     

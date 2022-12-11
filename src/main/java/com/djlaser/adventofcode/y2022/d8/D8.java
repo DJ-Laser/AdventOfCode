@@ -25,7 +25,7 @@ public class D8 extends AOCDay {
 
     @Override
     public void challenge1() {
-        String input = readInput(false);
+        String input = readInput();
         String[] lines = input.split("\r?\n");
         int[][] trees = new int[lines.length][];
         int score = 0;
@@ -78,7 +78,7 @@ public class D8 extends AOCDay {
     
     @Override
     public void challenge2() {
-        String input = readInput(false);
+        String input = readInput();
         String[] lines = input.split("\r?\n");
         int[][] trees = new int[lines.length][];
         int bestScore = 0;

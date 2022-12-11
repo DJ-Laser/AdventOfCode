@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class D2 extends AOCDay {
+
     public enum RPS {
         ROCK(1),
         PAPER(2),
@@ -111,7 +112,7 @@ public class D2 extends AOCDay {
 
     @Override
     public void challenge1() {
-        String input = readInput(false);
+        String input = readInput();
         List<String> instructions =
                 Arrays.stream(input.split("\r?\n")).map(s -> s.replaceAll(" ", "")).toList();
         int score = 0;
@@ -128,7 +129,7 @@ public class D2 extends AOCDay {
 
     @Override
     public void challenge2() {
-        String input = readInput(false);
+        String input = readInput();
         List<String> instructions =
                 Arrays.stream(input.split("\r?\n")).map(s -> s.replaceAll(" ", "")).toList();
         int score = 0;

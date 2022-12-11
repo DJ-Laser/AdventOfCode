@@ -7,6 +7,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public abstract class AOCDay {
+    public abstract void challenge1();
+    public abstract void challenge2();
 
     public void runChallenge(int challenge){
         if(challenge > 1){
@@ -16,17 +18,34 @@ public abstract class AOCDay {
         }
     }
 
-    protected String readInput(boolean loadExample) {
-        URL filePath = this.getClass().getResource(loadExample ? "example.txt" : "input.txt");
+    protected String readInput() {
+        URL filePath = this.getClass().getResource("input.txt");
         try {
-            assert filePath != null;
+            assert filePath != null : "File path is null";
             return new String(Files.readAllBytes(Paths.get(filePath.toURI())));
         } catch (IOException | URISyntaxException e) {
             throw new RuntimeException(e);
         }
     }
 
-    public abstract void challenge1();
-    public abstract void challenge2();
+    protected String readInput(boolean loadExample) {
+        URL filePath = this.getClass().getResource(loadExample ? "example.txt" : "input.txt");
+        try {
+            assert filePath != null : "File path is null";
+            return new String(Files.readAllBytes(Paths.get(filePath.toURI())));
+        } catch (IOException | URISyntaxException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    protected String readInput(String exampleNum) {
+        URL filePath = this.getClass().getResource("example" + exampleNum + ".txt");
+        try {
+            assert filePath != null : "File path is null";
+            return new String(Files.readAllBytes(Paths.get(filePath.toURI())));
+        } catch (IOException | URISyntaxException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
 

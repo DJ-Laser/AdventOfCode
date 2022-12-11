@@ -4,41 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc05599-24e8-4d29-898b-6233588ff96e" name="Changes" comment="start day 5">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_20_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4fc05599-24e8-4d29-898b-6233588ff96e" name="Changes" comment="make it maven">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_152.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d10/D10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d10/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d10/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d11/D11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d11/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d11/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d9/D9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d9/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d9/example2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d9/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_20_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_23_0_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/AOCDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/AOCDay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/AOCYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/AOCYear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/Y2022.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/Y2022.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d1/D1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d1/D1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d1/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d1/example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d1/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d1/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d2/D2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d2/D2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d2/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d2/example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d2/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d3/D3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d3/D3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d3/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d3/example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d3/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d3/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d4/D4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d4/D4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d4/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d4/example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d4/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d4/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d5/D5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d5/D5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d5/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d5/example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d5/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d5/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d6/D6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d6/D6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d6/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d6/example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d6/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d6/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d7/D7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d7/D7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d7/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d7/example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/y2022/d7/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y2022/d7/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/util/AOCDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/util/AOCDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/util/AOCYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/util/AOCYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/Y2022.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d1/D1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d1/D1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d2/D2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d2/D2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d3/D3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d3/D3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d4/D4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d4/D4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d5/D5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d5/D5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d6/D6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d6/D6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d7/D7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d7/D7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d8/D8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d8/D8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +44,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
+    <option name="SCHEME" value="Project" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,44 +56,58 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2ISSL6JO2fkP3eEkCiO8HFkJykm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/devin/OneDrive/Documents/AdventOfCode/AdventOfCode/src/y2022/d2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/devin/OneDrive/Documents/AdventOfCode/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\src\main\resources" />
       <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\AdventOfCode\src\y2022\d2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\AdventOfCode\src\y2022\d2" />
+      <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\src" />
+      <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\src\main\resources\com\djlaser" />
+      <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\src\main\resources\com.djlaser" />
+      <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\src\main" />
+      <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\target" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Challenge2">
+  <component name="RunManager" selected="Application.Challenge1">
     <configuration name="Challenge1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.djlaser.adventofcode.Main" />
       <module name="AdventOfCode" />
       <option name="PROGRAM_PARAMETERS" value="1" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,6 +116,7 @@
       <option name="MAIN_CLASS_NAME" value="com.djlaser.adventofcode.Main" />
       <module name="AdventOfCode" />
       <option name="PROGRAM_PARAMETERS" value="2" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670280428942</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="make it maven">
+      <created>1670534629443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670534629443</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,14 +179,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="days 1&amp;2" />
     <MESSAGE value="start day 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="start day 3" />
+    <MESSAGE value="make it maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="make it maven" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <condition expression="tree.getName().equals(&quot;/&quot;) | tree.getName().equals(&quot;vjdjl&quot;)" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/main/java/y2022/d7/D7.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d7/D7.java</url>
           <line>147</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>

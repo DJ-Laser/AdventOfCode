@@ -7,7 +7,7 @@ public class D3 extends AOCDay {
 
     @Override
     public void challenge1() {
-        String input = readInput(false);
+        String input = readInput();
         String[] rucksacks = input.split("\r?\n");
         int score = 0;
 
@@ -27,7 +27,7 @@ public class D3 extends AOCDay {
 
     @Override
     public void challenge2() {
-        String input = readInput(false);
+        String input = readInput();
         String[] rucksacks = input.split("\r?\n");
         int score = 0;
 

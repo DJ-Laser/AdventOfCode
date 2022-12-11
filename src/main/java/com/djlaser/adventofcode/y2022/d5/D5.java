@@ -8,9 +8,10 @@ import java.util.Deque;
 import java.util.List;
 
 public class D5 extends AOCDay {
+
     @Override
     public void challenge1() {
-        String input = readInput(false);
+        String input = readInput();
         String[] lines = input.split("\r?\n");
         List<Deque<Character>> containerStacks = new ArrayList<>();
         List<String> containerLines = new ArrayList<>();
@@ -81,7 +82,7 @@ public class D5 extends AOCDay {
 
     @Override
     public void challenge2() {
-        String input = readInput(false);
+        String input = readInput();
         String[] lines = input.split("\r?\n");
         List<Deque<Character>> containerStacks = new ArrayList<>();
         List<String> containerLines = new ArrayList<>();
