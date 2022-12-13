@@ -3,11 +3,18 @@ package com.djlaser.adventofcode.y2022.d11;
 import com.djlaser.adventofcode.util.AOCDay;
 
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class D11 extends AOCDay {
-    public record Monkey(Deque<Integer> items, Function<Integer, Integer> operation, Predicate<Integer> test, int trueIndex, int falseIndex) {
+    public record Monkey(Deque<Integer> items, Function<Integer, Integer> operation,
+    Predicate<Integer> test, int trueIndex, int falseIndex, AtomicInteger numItemsInspected) {
+
+        public Monkey(Deque<Integer> items, Function<Integer, Integer> operation,
+        Predicate<Integer> test, int trueIndex, int falseIndex) {
+            this(items, operation, test, trueIndex, falseIndex, new AtomicInteger(0));
+        }
 
         public static Map.Entry<Integer, Monkey> parseBlock(String block) {
             List<String> lines = block.lines().toList();
@@ -53,6 +60,10 @@ public class D11 extends AOCDay {
             return new AbstractMap.SimpleEntry<>(key, new Monkey(items, operation, i -> i % finalDivisor == 0, trueMonkey, falseMonkey));
         }
 
+        public void throwTo(Map<Integer, Monkey> monkeys) {
+            throwTo(monkeys.get(trueIndex), monkeys.get(falseIndex));
+        }
+
         public void throwTo(Monkey ifTrue, Monkey ifFalse) {
             Integer item = items.removeFirst();
             item = operation.apply(item);
@@ -63,10 +74,17 @@ public class D11 extends AOCDay {
             } else {
                 ifFalse.giveItem(item);
             }
+            numItemsInspected.incrementAndGet();
         }
 
         private void giveItem(Integer item) {
             items.addLast(item);
+        }
+
+        public void throwAll(Map<Integer, Monkey> monkeys) {
+            for (int i = 0; i < items.size(); i++) {
+                throwTo(monkeys);
+            }
         }
     }
 
@@ -78,6 +96,15 @@ public class D11 extends AOCDay {
         for (String block : blocks) {
             Map.Entry<Integer, Monkey> entry = Monkey.parseBlock(block);
             monkeys.put(entry.getKey(), entry.getValue());
+        }
+        for (int i = 0; i < 20; i++) {
+            for (Monkey monkey : monkeys.values()) {
+                monkey.throwAll(monkeys);
+            }
+        }
+
+        for (Monkey monkey : monkeys.values()) {
+            System.out.println(monkey.numItemsInspected);
         }
     }
 
