@@ -4,36 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc05599-24e8-4d29-898b-6233588ff96e" name="Changes" comment="make it maven">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_152.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d10/D10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d10/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d10/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d11/D11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d11/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d11/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d9/D9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d9/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d9/example2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d9/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_20_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_23_0_0.xml" afterDir="false" />
+    <list default="true" id="4fc05599-24e8-4d29-898b-6233588ff96e" name="Changes" comment="lol i forgot about git so heres one massive commit. Also i made it use classgraph now wahoo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/util/AOCDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/util/AOCDay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/util/AOCYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/util/AOCYear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/Y2022.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d1/D1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d1/D1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d2/D2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d2/D2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d3/D3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d3/D3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d4/D4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d4/D4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d5/D5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d5/D5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d6/D6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d6/D6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d7/D7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d7/D7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d8/D8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/djlaser/adventofcode/y2022/d8/D8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,24 +43,24 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/devin/OneDrive/Documents/AdventOfCode/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/devin/OneDrive/Documents/AdventOfCode/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\devin\OneDrive\Documents\AdventOfCode\src\main\resources" />
@@ -161,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670534629443</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lol i forgot about git so heres one massive commit. Also i made it use classgraph now wahoo">
+      <created>1670800065426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670800065426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +159,8 @@
     <MESSAGE value="days 1&amp;2" />
     <MESSAGE value="start day 3" />
     <MESSAGE value="make it maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="make it maven" />
+    <MESSAGE value="lol i forgot about git so heres one massive commit. Also i made it use classgraph now wahoo" />
+    <option name="LAST_COMMIT_MESSAGE" value="lol i forgot about git so heres one massive commit. Also i made it use classgraph now wahoo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
